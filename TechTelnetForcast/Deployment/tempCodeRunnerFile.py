@@ -31,19 +31,19 @@ def predict():
         print(f"An error occurred: {str(e)}")
         pred_message = 'An error occurred.'
 
-    return render_template('TechTelnetForcast/templates/index.html', pred=pred_message)
+    return render_template('index.html', pred=pred_message)
 
 @app.route('/home')
 def home():
-    return render_template('TechTelnetForcast/templates/home.html')
+    return render_template('home.html')
 
 @app.route('/about')
 def about():
-    return render_template('TechTelnetForcast/templates/about.html')
+    return render_template('about.html')
 
 @app.route('/feed')
 def feed():
-    return render_template('TechTelnetForcast/templates/feed.html')
+    return render_template('feed.html')
 
 if __name__ == '__main__':
     app.run(debug=True)

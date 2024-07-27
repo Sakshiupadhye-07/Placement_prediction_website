@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pylab as plt
 import seaborn as sns
 import numpy as np  
-df=pd.read_csv(r'TechTelnetForcast/Dataset/data.csv')
+df=pd.read_csv(r'C:\Users\saksh\OneDrive\Desktop\github\Placement_prediction_website\TechTelnetForcast\Dataset\data.csv')
 
 
 df.info() 
